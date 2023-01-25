@@ -16,8 +16,7 @@ const result = await api.sendMessage("Add Request Here");
 console.log(result.response);
 ```
 
-This solution is not lightweight, but it does work a lot more consistently than the previous REST API-based approach. For example, I'm currently using this approach to automate N concurrent OpenAI accounts for my [Twitter bot](https://github.com/transitive-bullshit/chatgpt-twitter-bot). 😂
-
+This solution is not lightweight, but it does work a lot more consistently than the previous REST API-based approach. 
 We recently added support for CAPTCHA automation using either [nopecha](https://nopecha.com/) or [2captcha](https://2captcha.com). Keep in mind that this package will be updated to use the official API as soon as it's released, so things should get much easier over time. 💪
 
 There are some restrictions to be aware of, however:
@@ -375,4 +374,4 @@ This package supports any Modern Browser and webApp
 
 MIT © [Sanne Karibo](https://github.com/sanneemmanuel)
 
-If you found this project interesting, please consider [sponsoring me](https://github.com/sponsors/sanneemmanuel) or <a href="www.facebook.com/sansax.bassist.5"></a>
+If you found this project interesting, please consider [sponsoring me](https://github.com/sponsors/sanneemmanuel) or <a href="www.facebook.com/sansax.bassist.5"> follow me on Facebook</a>
